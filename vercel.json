@@ -6,11 +6,6 @@
       "use": "@vercel/node"
     }
   ],
-  "functions": {
-    "api/sendEmails.js": {
-      "runtime": "nodejs16.x" // or another valid Node.js version
-    }
-  },
   "routes": [
     {
       "src": "/api/send-emails",
